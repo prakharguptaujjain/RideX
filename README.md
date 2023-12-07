@@ -4,4 +4,4 @@ Ride-Sharing Platform
 
 ## Demo
 
-[![Demo](./Demo.png)](./Demo.mp4)
+https://github.com/prakharguptaujjain/RideX/assets/95362168/c807c0d0-176e-4b56-a95c-eed13a8f9ca4
