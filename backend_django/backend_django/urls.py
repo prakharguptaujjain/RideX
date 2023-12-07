@@ -14,8 +14,11 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
-
+from django.urls import path,include
+from user.views import RIDE_VIEW
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('user/',include('user.urls')),
+    path('staff/',include('user.staff_urls')),
+    path('ViewRide/<str:unique_id>',RIDE_VIEW.RIDE_DETAIL.as_view()),
 ]
